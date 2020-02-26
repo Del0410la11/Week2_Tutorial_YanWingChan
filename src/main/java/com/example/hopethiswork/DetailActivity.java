@@ -21,6 +21,7 @@ public class DetailActivity extends AppCompatActivity {
         if (arg0.getId() == R.id.button2) {
 
             Intent intent2 = new Intent(this, VideoActivity.class);
+
             this.startActivity(intent2);
         }
     }
