@@ -12,8 +12,7 @@ public class VideoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState2);
         setContentView(R.layout.activity_video);
 
-        WebView webView = (WebView)
-                findViewById(R.id.webview);
-        webView.loadUrl("https://www.youtube.com/watch?v=rA8MUR4pqNE");
+        WebView videoView = findViewById(R.id.videoview);
+        videoView.loadUrl("https://www.youtube.com/watch?v=rA8MUR4pqNE");
     }
 }

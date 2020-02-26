@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HopeThis Work</string>
+    <string name="launchda">Launch Detail Activity</string>
+    <string name="launchvideo">Video</string>
+    <string name="text1">Hello from Detail Activity</string>
+    
 </resources>
